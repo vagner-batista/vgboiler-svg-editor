@@ -14,7 +14,7 @@ const CatCard:React.FC<ICatCard> = ({tag, title, body, author, time}) => {
     <div className={styles.container}>
         <div className={styles.card}>
             <div className={styles.card__header}>
-                <Image src="time-cat.jpg" alt="card__image" className={styles.card__image} width="600" height="400" />
+                <Image src="/vercel.svg" alt="card__image" className={styles.card__image} width="600" height="400" />
             </div>
             <div className={styles.card__body}>
                 <span className={`${styles.tag} ${styles['tag-blue']}`}>{tag}</span>
@@ -23,7 +23,7 @@ const CatCard:React.FC<ICatCard> = ({tag, title, body, author, time}) => {
             </div>
             <div className={styles.card__footer}>
                 <div className={styles.user}>
-                    <Image src="https://avatars.githubusercontent.com/u/10309203?v=4" alt="user__image" className={styles.user__image} width="40" height="40" />
+                    <Image src="/vercel.svg" alt="user__image" className={styles.user__image} width="40" height="40" />
                     <div className={styles.user__info}>
                         <h5>{author}</h5>
                         <small>{time}</small>

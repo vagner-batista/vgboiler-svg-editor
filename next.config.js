@@ -2,7 +2,8 @@
 const nextConfig = {
   reactStrictMode: true,
   images: {
-    domains: ['i.pravatar.cc', 'avatars.githubusercontent.com'],
+    domains: ['i.pravatar.cc', 'github.com', 'avatars.githubusercontent.com', 'localhost'],
+    formats: ['image/avif']
   },
 };
 
