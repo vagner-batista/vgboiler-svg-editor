@@ -1,7 +1,16 @@
 {
   "name": "vgboiler",
+  "author": "VAGNER ROGERIO BATISTA",
+  "description": "Meu boiler plate para NodeJS",
   "version": "0.1.0",
   "private": true,
+  "license": "MIT",
+  "homepage": "https://github.com/vagner-batista",
+  "engines": {
+    "node": ">=16.15.1",
+    "yarn": ">=1.22.18",
+    "npm": "please-use-yarn"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
