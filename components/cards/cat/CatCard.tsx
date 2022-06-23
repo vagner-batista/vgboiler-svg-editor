@@ -14,7 +14,7 @@ const CatCard:React.FC<ICatCard> = ({tag, title, body, author, time}) => {
     <div className={styles.container}>
         <div className={styles.card}>
             <div className={styles.card__header}>
-                <Image src="/vercel.svg" alt="card__image" className={styles.card__image} width="600" height="400" />
+                <Image src="https://github.com/vagner-batista.png" alt="card__image" className={styles.card__image} width="600" height="400" />
             </div>
             <div className={styles.card__body}>
                 <span className={`${styles.tag} ${styles['tag-blue']}`}>{tag}</span>
