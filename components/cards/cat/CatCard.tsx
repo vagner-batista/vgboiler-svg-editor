@@ -7,14 +7,15 @@ export interface ICatCard{
     body: string;
     author: string;
     time: string;
+    image: string;
 }
 
-const CatCard:React.FC<ICatCard> = ({tag, title, body, author, time}) => {
+const CatCard:React.FC<ICatCard> = ({tag, title, body, author, time, image}) => {
     return (
     <div className={styles.container}>
         <div className={styles.card}>
             <div className={styles.card__header}>
-                <Image src="https://github.com/vagner-batista.png" alt="card__image" className={styles.card__image} width="600" height="400" />
+                <Image src={image} alt="card__image" className={styles.card__image} width="600" height="400" />
             </div>
             <div className={styles.card__body}>
                 <span className={`${styles.tag} ${styles['tag-blue']}`}>{tag}</span>
