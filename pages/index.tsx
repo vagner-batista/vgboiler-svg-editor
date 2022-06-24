@@ -17,7 +17,13 @@ const Home: NextPageWithLayout = () => {
       <h1 className={styles.title}>
         Exemplo de Layout
       </h1>
+      <section className={styles.grid}>
       <CatCard {...mockCatCardProps.base}/>
+      <CatCard {...mockCatCardProps.base}/>
+      <CatCard {...mockCatCardProps.base}/>
+      <CatCard {...mockCatCardProps.base}/>
+      </section>
+      
     </section>
     </>
   );
