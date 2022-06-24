@@ -9,22 +9,19 @@ import { NextPageWithLayout } from './page';
 const Home: NextPageWithLayout = () => {
   return (
     <>
-    <Head>
-      <meta name='description' content='Template utilizando Layout' />
-      <title>Template utilizando layout</title>
-    </Head>
-    <section className={styles.main}>
-      <h1 className={styles.title}>
-        Exemplo de Layout
-      </h1>
-      <section className={styles.grid}>
-      <CatCard {...mockCatCardProps.base}/>
-      <CatCard {...mockCatCardProps.base}/>
-      <CatCard {...mockCatCardProps.base}/>
-      <CatCard {...mockCatCardProps.base}/>
+      <Head>
+        <meta name="description" content="Template utilizando Layout" />
+        <title>Template utilizando layout</title>
+      </Head>
+      <section className={styles.main}>
+        <h1 className={styles.title} data-testid="titulo">Exemplo de Layout</h1>
+        <section className={styles.grid}>
+          <CatCard {...mockCatCardProps.base} />
+          <CatCard {...mockCatCardProps.base} />
+          <CatCard {...mockCatCardProps.base} />
+          <CatCard {...mockCatCardProps.base} />
+        </section>
       </section>
-      
-    </section>
     </>
   );
 };
@@ -37,5 +34,5 @@ Home.getLayout = (page) => {
       <SidebarLayout />
       {page}
     </PrimaryLayout>
-  )
-}
+  );
+};
