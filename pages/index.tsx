@@ -14,7 +14,9 @@ const Home: NextPageWithLayout = () => {
         <title>Template utilizando layout</title>
       </Head>
       <section className={styles.main}>
-        <h1 className={styles.title} data-testid="titulo">Exemplo de Layout</h1>
+        <h1 className={styles.title} data-testid="titulo">
+          Exemplo de Layout
+        </h1>
         <section className={styles.grid}>
           <CatCard {...mockCatCardProps.base} />
           <CatCard {...mockCatCardProps.base} />
