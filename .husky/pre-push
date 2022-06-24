@@ -2,5 +2,6 @@
 . "$(dirname -- "$0")/_/husky.sh"
 
 yarn test
-yarn test:e2e
 yarn build
+yarn start
+yarn test:e2e

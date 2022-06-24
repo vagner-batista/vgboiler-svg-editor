@@ -58,6 +58,7 @@
     "jest-environment-jsdom": "^28.1.1",
     "prettier": "^2.7.1",
     "react-test-renderer": "^18.2.0",
+    "start-server-and-test": "^1.14.0",
     "storybook-addon-next": "^1.6.6",
     "typescript": "4.7.4"
   },
