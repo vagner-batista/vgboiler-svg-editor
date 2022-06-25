@@ -24,6 +24,7 @@
     "test:e2e": "playwright test"
   },
   "dependencies": {
+    "dotenv": "^16.0.1",
     "next": "12.1.6",
     "react": "18.2.0",
     "react-dom": "18.2.0"
