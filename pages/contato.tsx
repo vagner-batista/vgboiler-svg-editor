@@ -21,13 +21,14 @@ const Contato: NextPageWithLayout = () => {
         <h1 className={styles.title}>Exemplo de layout ( Contato )</h1>
         <form onSubmit={handleSubmit(handleContact)}>
           <label htmlFor="phone-masked">Telefone : </label>
+          <input type="text" {...register('nome')} />
           <Controller
             control={control}
             name="teste"
             render={({ field: { onChange, value } }) => {
               return (
                 <NumberFormat
-                id="phone-masked"
+                  id="phone-masked"
                   onChange={onChange}
                   value={value}
                   format="+55 (##) #### ## ####"
