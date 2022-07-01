@@ -9,9 +9,7 @@ export default {
   argTypes: {},
 } as ComponentMeta<typeof Fab>;
 
-const Template: ComponentStory<typeof Fab> = (args) => (
-  <Fab {...args} />
-);
+const Template: ComponentStory<typeof Fab> = (args) => <Fab {...args} />;
 
 export const Base = Template.bind({});
 // More on args: https://storybook.js.org/docs/react/writing-stories/args
