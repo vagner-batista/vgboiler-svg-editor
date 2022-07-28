@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="50 50 100 100" width="100cm" height="100cm" xmlns="http://www.w3.org/2000/svg">
+  <g id="draw-freehand" transform="matrix(4.166667, 0, 0, 4.166664, -1932.008911, -932.385315)">
+    <rect y="235.77263" x="475.68213" height="24" width="24" id="rect15256" style="display:inline;fill:none;fill-opacity:1;stroke:none;stroke-width:1.89999998;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0.63;stroke-opacity:1"/>
+    <path id="path15277" d="m 476.2133,237.333 c 8.7987,-1.13081 3.96426,4.00312 2.45034,5.27395 -2.50198,2.10023 -1.06002,5.09334 2.46493,5.06492 4.4361,-0.0358 3.67698,4.24559 1.34033,4.95882 -6.2509,1.908 3.10323,10.4769 6.00985,2.49828" style="fill:none;stroke:#333333;stroke-width:1;stroke-linecap:round;stroke-linejoin:round"/>
+    <path id="path11157-5" d="m 494.13477,235.77344 -6.06641,10.46484 0.008,8.19141 c -0.0118,0.61491 0.59936,0.97236 1.17774,0.68164 l 7.11523,-4.0586 3.3125,-5.71484 0,-9.56445 -5.54687,0 z" style="fill:#c4916e;fill-opacity:1"/>
+    <path id="path11193-6" d="m 494.13477,235.77344 -6.06641,10.46484 3.16211,4.11328 8.45117,-14.57812 -5.54687,0 z" style="fill:#ffa200;fill-opacity:1;stroke:none;stroke-width:1.89999998;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0.63;stroke-opacity:1"/>
+    <path id="path11195-2" d="m 499.68164,235.77344 -8.45117,14.57812 5.13867,0.70117 3.3125,-5.71484 0,-9.56445 z" style="fill:#ffcc00;fill-opacity:1;stroke:none;stroke-width:1.89999998;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0.63;stroke-opacity:1"/>
+    <path id="rect11197-9" d="m 488.0706,251.14998 0.003,3.27771 c -0.0118,0.61491 0.5992,0.97344 1.17758,0.68271 l 2.84616,-1.62564 c -0.80089,0.46127 -4.02383,-1.45363 -4.02713,-2.33478 z" style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.89999998;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0.63;stroke-opacity:1"/>
+  </g>
+</svg>

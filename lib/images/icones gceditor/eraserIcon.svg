@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="50 50 100 100" width="100cm" height="100cm" xmlns="http://www.w3.org/2000/svg">
+  <g id="draw-eraser" transform="matrix(4.166667, 0, 0, 4.166667, -1530.319214, -1776.81543)">
+    <rect y="438.4357" x="379.27661" height="24" width="24" id="rect11994" style="fill:none;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:1;stroke-opacity:1"/>
+    <g transform="matrix(-0.89552532,-0.51703178,0.51703178,-0.89552532,797.32158,840.82626)" id="g12034">
+      <path style="fill:#5baae1;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:1;stroke-opacity:1" d="m 524.85937,121.35948 c -0.90255,0 -1.59179,0.68924 -1.59179,1.5918 l 0,5.50586 11.16211,0 0,-5.50586 c 0,-0.9016 -0.6912,-1.5918 -1.59375,-1.5918 l -7.97657,0 z" id="path12005"/>
+      <path style="fill:#ea6789;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:1;stroke-opacity:1" d="m 523.25586,128.45714 0,9.97059 c 0,0.74906 0.60394,1.30519 1.35156,1.35157 2.84563,0.17652 5.67059,0.18763 8.4707,0 0.74739,-0.0501 1.35157,-0.60251 1.35157,-1.35157 l 0,-9.97059 z" id="rect11998"/>
+    </g>
+  </g>
+</svg>

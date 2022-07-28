@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="50 50 100 100" width="100cm" height="100cm" xmlns="http://www.w3.org/2000/svg" >
+  <path d="M 133.461 129.931 L 80.727 142.673 L 51.979 97.804 L 86.948 57.344 L 137.307 77.196 L 133.461 129.931 Z" id="draw-polygon" style="fill: rgb(171, 55, 200); fill-opacity: 1; stroke: none; stroke-width: 1.10524; stroke-linecap: round; stroke-linejoin: round; stroke-miterlimit: 4; stroke-dasharray: none; stroke-dashoffset: 0.63; stroke-opacity: 1;" transform="matrix(0.971127, 0.238565, -0.238565, 0.971127, 28.338139, -19.031129)" />
+</svg>

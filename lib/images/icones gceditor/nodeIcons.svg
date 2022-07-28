@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="50 50 100 100" width="100cm" height="100cm" xmlns="http://www.w3.org/2000/svg">
+  <g id="tool-node-editor" transform="matrix(4.166667, 0, 0, 4.163311, -1930.431274, -174.795135)">
+    <path id="rect11397" d="m 475.3035,53.994308 24,0 0,24 -24,0 z" style="display:inline;fill:none;fill-opacity:1;stroke:none;stroke-width:0.1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0.63;stroke-opacity:1"/>
+    <rect style="color:#000000;fill:none" id="rect11307" width="24" height="24" x="475.3035" y="54.013649"/>
+    <path style="fill:none;stroke:#4d4d4d;stroke-width:1px;stroke-opacity:1" d="m 477.8035,76.01365 c -0.5,-8 0.6365,-12.357 3.9649,-15.4022 2.9375,-2.6875 7.5351,-4.5978 15.5351,-4.0978" id="path11324"/>
+    <rect y="57.517555" x="478.8035" height="5.9961362" width="6.1177049" id="rect11326" style="color:#000000;fill:#ea3d15;fill-opacity:0.60693641;fill-rule:evenodd;stroke:#ea3d15;stroke-width:0.99999958;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:0;stroke-opacity:1"/>
+    <rect y="73.513649" x="475.8035" height="3.9996819" width="3.9980321" id="rect11328" style="color:#000000;fill:#2686af;fill-opacity:0.5098038;fill-rule:evenodd;stroke:#2686af;stroke-width:0.99999952;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:0;stroke-opacity:1"/>
+    <path style="fill:#4d4d4d;fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-linecap:round;stroke-linejoin:round" d="m 482.3035,61.01365 9,16 6,-6 -15,-10 z" id="path11331"/>
+    <rect style="color:#000000;fill:#2585af;fill-opacity:0.5098038;fill-rule:evenodd;stroke:#2686af;stroke-width:0.99999952;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:0;stroke-opacity:1" id="use11333" width="3.9980321" height="3.9996819" x="494.80548" y="54.474972"/>
+  </g>
+</svg>

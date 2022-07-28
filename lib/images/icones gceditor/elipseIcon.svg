@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="50 50 100 100" width="100cm" height="100cm" xmlns="http://www.w3.org/2000/svg" >
+  <g id="draw-ellipse" transform="matrix(2.946503, -2.946054, 2.062237, 2.062552, -1651.922485, 1216.898682)" style="" >
+    <rect y="141.90143" x="474.89621" height="24" width="24" id="rect11990" style="fill:none;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:1;stroke-opacity:1"/>
+    <circle r="10.08785" cy="153.90143" cx="486.89621" id="path11988" style="fill:#47ba6b;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:1;stroke-opacity:1"/>
+  </g>
+</svg>
