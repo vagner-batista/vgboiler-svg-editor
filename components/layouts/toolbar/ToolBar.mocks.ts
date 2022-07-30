@@ -1,7 +1,7 @@
 import { IToolBar } from './ToolBar';
 
 const base: IToolBar = {
-  open:false
+  open: false,
 };
 
 export const mockToolBarProps = {

@@ -18,25 +18,25 @@ import Text from '../../../lib/images/icones gceditor/textIcon.svg';
 import Zoom from '../../../lib/images/icones gceditor/zoomIcon.svg';
 
 export type IdefaultIcons = {
-  move: React.ComponentType,
-  caligraphy: React.ComponentType,
-  color: React.ComponentType,
-  compass: React.ComponentType,
-  eraser: React.ComponentType,
-  fill: React.ComponentType,
-  freehand: React.ComponentType,
-  gradient: React.ComponentType,
-  nodes: React.ComponentType,
-  path: React.ComponentType,
-  rect: React.ComponentType,
-  spray: React.ComponentType,
-  text: React.ComponentType,
-  zoom: React.ComponentType,
-  elipse: React.ComponentType,
-  polygon: React.ComponentType
-}
+  move: React.ComponentType;
+  caligraphy: React.ComponentType;
+  color: React.ComponentType;
+  compass: React.ComponentType;
+  eraser: React.ComponentType;
+  fill: React.ComponentType;
+  freehand: React.ComponentType;
+  gradient: React.ComponentType;
+  nodes: React.ComponentType;
+  path: React.ComponentType;
+  rect: React.ComponentType;
+  spray: React.ComponentType;
+  text: React.ComponentType;
+  zoom: React.ComponentType;
+  elipse: React.ComponentType;
+  polygon: React.ComponentType;
+};
 
-const defaultIcons:IdefaultIcons = {
+const defaultIcons: IdefaultIcons = {
   move: Move,
   caligraphy: Caligraphy,
   color: Color,
@@ -49,70 +49,70 @@ const defaultIcons:IdefaultIcons = {
   path: Path,
   rect: Rect,
   spray: Spray,
-  text:Text,
+  text: Text,
   zoom: Zoom,
   elipse: Elipse,
   polygon: Polygon,
-}
+};
 
-const iconsObj = {
-  Move,
-  Caligraphy,
-  Color,
-  Compass,
-  Eraser,
-  Fill,
-  Freehand,
-  Gradient,
-  Nodes,
-  Path,
-  Rect,
-  Spray,
-  Text,
-  Zoom
-}
+//const iconsObj = {
+//  Move,
+//  Caligraphy,
+//  Color,
+//  Compass,
+//  Eraser,
+//  Fill,
+//  Freehand,
+//  Gradient,
+//  Nodes,
+//  Path,
+//  Rect,
+//  Spray,
+//  Text,
+//  Zoom,
+//};
 
 type IiconStyle = {
-  width: string | number,
-  height: string | number,
-}
-const iconStyle = ({width, height}:IiconStyle) => css`
-  
-  width: ${width };
-  height: ${height };
-  margin:10px;
-  transition: all .15s ease-in-out, scale 1s ease-in-out, width 0s, height 0s;
-  filter: drop-shadow(2px 2px 2px rgb(0 0 0 / .4));
-  &:hover{
-    filter: drop-shadow(1px 1px 1px rgb(0 0 0 / .4));
-    transform: scale(.99) translate(1px,1px);
+  width: string | number;
+  height: string | number;
+};
+const iconStyle = ({ width, height }: IiconStyle) => css`
+  width: ${width};
+  height: ${height};
+  margin: 10px;
+  transition: all 0.15s ease-in-out, scale 1s ease-in-out, width 0s, height 0s;
+  filter: drop-shadow(2px 2px 2px rgb(0 0 0 / 0.4));
+  &:hover {
+    filter: drop-shadow(1px 1px 1px rgb(0 0 0 / 0.4));
+    transform: scale(0.99) translate(1px, 1px);
   }
-  &:active{
-    filter: drop-shadow(1px 1px 3px rgb(0 0 0 / .4)) brightness(115%);
-    transform: scale(.985) translate(1px, 1px);
+  &:active {
+    filter: drop-shadow(1px 1px 3px rgb(0 0 0 / 0.4)) brightness(115%);
+    transform: scale(0.985) translate(1px, 1px);
   }
-  &&{
+  && {
     cursor: default;
   }
-`
+`;
 
-const StyledIcon = styled(({icon, ...rest})=>{const element = (icon in defaultIcons && typeof icon==='string') ? defaultIcons[icon as keyof IdefaultIcons] : icon; return React.createElement(element, rest )})`
-  width: ${props => props.size==='small' ? '30px' : '90px'};
-  height: ${rest => rest.size==='small' ? '30px' : '90px'};
-  ${rest => iconStyle({width:rest.width, height:rest.height})}
-`
+const StyledIcon = styled(({ icon, ...rest }) => {
+  const element =
+    icon in defaultIcons && typeof icon === 'string'
+      ? defaultIcons[icon as keyof IdefaultIcons]
+      : icon;
+  return React.createElement(element, rest);
+})`
+  width: ${(props) => (props.size === 'small' ? '30px' : '90px')};
+  height: ${(rest) => (rest.size === 'small' ? '30px' : '90px')};
+  ${(rest) => iconStyle({ width: rest.width, height: rest.height })}
+`;
 
 export interface IIconButton {
-  icon: React.ComponentType | string
+  icon: React.ComponentType | string;
 }
 
-
-
 const IconButton: React.FC<IIconButton> = ({ icon }) => {
-  
-  return (
-    <StyledIcon icon={icon || Move} width='30px' height='40px' />
-  );
+  return <StyledIcon icon={icon || Move} width="30px" height="40px" />;
 };
 
 export default IconButton;

@@ -18,7 +18,7 @@ const Contato: NextPageWithLayout = () => {
         <title>Template utilizando layout</title>
       </Head>
       <section className={styles.main}>
-      <h1 className={styles.title}>Exemplo de layout ( Contato )</h1>
+        <h1 className={styles.title}>Exemplo de layout ( Contato )</h1>
         <form onSubmit={handleSubmit(handleContact)}>
           <label htmlFor="phone-masked">Telefone : </label>
           <input type="text" {...register('nome')} />
@@ -60,7 +60,8 @@ const Contato: NextPageWithLayout = () => {
           To visualize this, try tying in the search input in the{' '}
           <code>Sidebar</code> and then changing routes. You&apos;ll notice the
           input state is persisted.
-        </p><h1 className={styles.title}>Exemplo de layout ( Contato )</h1>
+        </p>
+        <h1 className={styles.title}>Exemplo de layout ( Contato )</h1>
         <form onSubmit={handleSubmit(handleContact)}>
           <label htmlFor="phone-masked">Telefone : </label>
           <input type="text" {...register('nome')} />
@@ -102,7 +103,8 @@ const Contato: NextPageWithLayout = () => {
           To visualize this, try tying in the search input in the{' '}
           <code>Sidebar</code> and then changing routes. You&apos;ll notice the
           input state is persisted.
-        </p><h1 className={styles.title}>Exemplo de layout ( Contato )</h1>
+        </p>
+        <h1 className={styles.title}>Exemplo de layout ( Contato )</h1>
         <form onSubmit={handleSubmit(handleContact)}>
           <label htmlFor="phone-masked">Telefone : </label>
           <input type="text" {...register('nome')} />
@@ -144,7 +146,8 @@ const Contato: NextPageWithLayout = () => {
           To visualize this, try tying in the search input in the{' '}
           <code>Sidebar</code> and then changing routes. You&apos;ll notice the
           input state is persisted.
-        </p><h1 className={styles.title}>Exemplo de layout ( Contato )</h1>
+        </p>
+        <h1 className={styles.title}>Exemplo de layout ( Contato )</h1>
         <form onSubmit={handleSubmit(handleContact)}>
           <label htmlFor="phone-masked">Telefone : </label>
           <input type="text" {...register('nome')} />
@@ -197,7 +200,7 @@ export default Contato;
 Contato.getLayout = (page) => {
   return (
     <PrimaryLayout>
-      <ToolBar />
+      <ToolBar open={true} />
       {page}
     </PrimaryLayout>
   );

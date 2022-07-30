@@ -9,7 +9,9 @@ export default {
   argTypes: {},
 } as ComponentMeta<typeof IconButton>;
 
-const Template: ComponentStory<typeof IconButton> = (args) => <IconButton {...args} />;
+const Template: ComponentStory<typeof IconButton> = (args) => (
+  <IconButton {...args} />
+);
 
 export const Base = Template.bind({});
 // More on args: https://storybook.js.org/docs/react/writing-stories/args

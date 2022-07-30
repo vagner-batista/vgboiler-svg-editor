@@ -19,9 +19,9 @@ import Spray from '../../../lib/images/icones gceditor/sparyIcon.svg';
 import Text from '../../../lib/images/icones gceditor/textIcon.svg';
 import Zoom from '../../../lib/images/icones gceditor/zoomIcon.svg';
 
-export interface IToolBar{
-  open:boolean, 
-  children?:React.ComponentType
+export interface IToolBar {
+  open: boolean;
+  children?: React.ComponentType;
 }
 
 const Icons = {
@@ -37,62 +37,57 @@ const Icons = {
   path: Path,
   rect: Rect,
   spray: Spray,
-  text:Text,
+  text: Text,
   zoom: Zoom,
-  elipse:Elipse,
+  elipse: Elipse,
   polygon: Polygon,
-}
+};
 
-const SideBar = styled(({open, ...rest}) => <div {...rest} />)`
-  bottom:0;
+const SideBar = styled(({ open, ...rest }) => <div {...rest} />)`
+  bottom: 0;
   background-color: #ddd;
   border-right: solid #bbb 2px;
   display: flex;
   flex-direction: column;
-  position:relative;
-  left: ${({open})=> open ? '0px' : '-60px'};
+  position: relative;
+  left: ${({ open }) => (open ? '0px' : '-60px')};
   align-items: center;
-  transition: .4s cubic-bezier(0.075, 0.82, 0.165, 1);
-  
-  &:after{
-    content: '${({open})=>open ? '<<' : '>>'}';
-    position:absolute;
+  transition: 0.4s cubic-bezier(0.075, 0.82, 0.165, 1);
+
+  &:after {
+    content: '${({ open }) => (open ? '<<' : '>>')}';
+    position: absolute;
     left: 100%;
-    width:30px;
-    background-color:#ddd;
-    top:30px;
-    height:40px;
+    width: 30px;
+    background-color: #ddd;
+    top: 30px;
+    height: 40px;
     text-align: center;
     vertical-align: middle;
-    padding-top:10px;
+    padding-top: 10px;
     border-top-right-radius: 20%;
     border-bottom-right-radius: 20%;
     border: 2px solid #bbb;
     border-left: none;
   }
-`
+`;
 
-
-const ToolBar:React.FC<IToolBar> = ({open=false, children}) => {
-
+const ToolBar: React.FC<IToolBar> = ({ open = false, children }) => {
   const [isOpen, setOpen] = useState(open);
 
-  const toggleVisibility = (e:MouseEvent) => {
-    if ( e.target === e.currentTarget ) setOpen(!isOpen);
-  }
+  const toggleVisibility = (e: MouseEvent) => {
+    if (e.target === e.currentTarget) setOpen(!isOpen);
+  };
 
-  return <SideBar onClick={(e:MouseEvent)=>toggleVisibility(e)} open={isOpen} >
-    
-    
-    {
-      Object.keys(Icons).map((icon, index) => <IconButton icon={icon} key={index} />)
-      }
+  return (
+    <SideBar onClick={(e: MouseEvent) => toggleVisibility(e)} open={isOpen}>
+      {Object.keys(Icons).map((icon, index) => (
+        <IconButton icon={icon} key={index} />
+      ))}
 
       {children}
-
-      
-  </SideBar>
-}
-
+    </SideBar>
+  );
+};
 
 export default ToolBar;
