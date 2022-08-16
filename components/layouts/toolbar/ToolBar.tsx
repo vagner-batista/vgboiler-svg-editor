@@ -43,7 +43,7 @@ const Icons = {
   polygon: Polygon,
 };
 
-const SideBar = styled(({ open, ...rest }) => <div {...rest} />)`
+const SideBar = styled(({ ...rest }) => <div {...rest} />)`
   bottom: 0;
   background-color: #ddd;
   border-right: solid #bbb 2px;
