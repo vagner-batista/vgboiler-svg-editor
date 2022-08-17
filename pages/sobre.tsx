@@ -8,8 +8,6 @@ const Sobre: NextPageWithLayout = () => {
         <meta name="description" content="Template utilizando Layout" />
         <title>Template utilizando layout</title>
       </Head>
-
-
     </>
   );
 };
